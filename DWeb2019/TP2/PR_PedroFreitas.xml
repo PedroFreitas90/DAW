@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PR SYSTEM "PR.dtd">
+<PR>
+    <REC>TPC: RECORD - PEDRO FREITAS</REC>
+    <HEAD>
+        <KEY_NAME>TPC2</KEY_NAME>
+        <TITLE>DTD | XML | XPATH </TITLE>
+        <SUBTITLE> PR e ARQUEOSÍTIOS</SUBTITLE>
+        <BEGIN_DATE>24-09-2019</BEGIN_DATE>
+        <END_DATE>1-10-2019</END_DATE>
+        <SUPERVISOR href="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</SUPERVISOR>
+    </HEAD>
+    <WORKTEAM>
+        <PESSOA>
+            <NAME>Pedro Miguel Marques Freitas</NAME>
+            <NUMBER>A80975</NUMBER>
+            <MAIL>a80975@alunos.uminho.pt</MAIL>
+            <GIT href="https://github.com/PedroFreitas90">Github</GIT>
+        </PESSOA>
+    </WORKTEAM>
+    <ABSTRACT>
+        <PAR>Esta semana foi nos dado 2 trabalhos diferentes de forma a explorarmos tanto a definição de DTD's 
+            como a prática de <i>queries</i> sobre XPATH. </PAR>
+        <PAR>O primeiro trabalho consistia na construção de um <b>DTD</b> sobre Project Records.
+            Para isso usamos como modelo esta<link href="http://www4.di.uminho.pt/~jcr/XML/didac/xmldocs/PR.htm"> página</link>. </PAR>
+        <PAR>Já o segundo trabalho além da construção de um <b>Definition Type Document (DTD) </b> sobre o 
+            <link href="http://www4.di.uminho.pt/~jcr/XML/didac/xmldocs/arq.xml"> documento</link> tínhamos
+            também de usar o XPATH para respondermos às perguntas propostas neste 
+            <link href="http://www4.di.uminho.pt/~jcr/XML/CURSOS/PED2008/fichas/ficha3/e6.html"> enunciado</link>. </PAR>
+    </ABSTRACT>
+    <DELIVS>
+        <DELIV href="https://github.com/PedroFreitas90/DAW/tree/master/DWeb2019/TP2/PR.dtd">DTD - PR</DELIV>
+        <DELIV href="https://github.com/PedroFreitas90/DAW/tree/master/DWeb2019/TP2/PR_PedroFreitas.xml">XML - PR</DELIV>
+        <DELIV href="https://github.com/PedroFreitas90/DAW/tree/master/DWeb2019/TP2/PR_Arqueositios.dtd">DTD - Arqueosítios</DELIV>
+        <DELIV href="https://github.com/PedroFreitas90/DAW/tree/master/DWeb2019/TP2/Queries.txt">XPATH - Arqueosítios</DELIV>
+    </DELIVS>
+    <DATE>1/10/2019</DATE>
+</PR>
