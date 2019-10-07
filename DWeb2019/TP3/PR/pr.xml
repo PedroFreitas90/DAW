@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <metadata>
+        <keyname>TPC3</keyname>
+        <title>XLS</title>
+        <subtitle>Stylesheets aplicavéis a ficheiro xml</subtitle>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho </supervisor>
+        <bdate>01/10/2019</bdate>
+        <edate>08/10/2019</edate>
+    </metadata>
+    
+    <workteam>
+        <worker>
+            <identifier>A80975</identifier>
+            <name>Pedro Freitas</name>
+            <email>a80975@alunos.uminho.pt</email>
+            <git>https://github.com/PedroFreitas90</git>
+        </worker>
+    </workteam>
+    
+    <abstract>
+        <p> Este trabalho teve 2 partes distintas: </p>
+        <p> A 1ª parte consistia na criação de stylesheet para transformar o pr.xml numa página html, usando um ficheiro XSLT.</p>
+        <p> A 2ª parte foi um pouco mais complexo, sendo este o desenvolvimento de um website para os arqueossítios.
+            Este website é bastante intuitivo visto que a página principal trata-se de um índice para cada um dos arqueossítios presentes no ficheiro xml.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.xsl">PR(XSL) </deliverable>
+        <deliverable path="pr.xml">PR(XML)</deliverable>
+        <deliverable path="pr.html">PR(HTML)</deliverable>
+        <deliverable path="pr.dtd">PR(DTD)</deliverable>
+        <deliverable path="../ARQS/Arqs.xsl">Arqueossítios(XSL)</deliverable>
+        <deliverable path="../ARQS/Website">Website dos Arqueossítios</deliverable>
+    </deliverables>
+</pr>
