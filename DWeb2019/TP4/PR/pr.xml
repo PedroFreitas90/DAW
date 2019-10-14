@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <metadata>
+        <keyname>TPC4</keyname>
+        <title>Servidor NodeJS</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho </supervisor>
+        <bdate>8/10/2019</bdate>
+        <edate>15/10/2019</edate>
+    </metadata>
+    
+    <workteam>
+        <worker>
+            <identifier>A80975</identifier>
+            <name>Pedro Freitas</name>
+            <email>a80975@alunos.uminho.pt</email>
+            <git>https://github.com/PedroFreitas90</git>
+        </worker>
+    </workteam>
+    
+    <abstract>
+        <p> Este trabalho consiste na implementação de um servidor para o Website dos Arqueossítios </p>
+        <p> Primeiramente foi criada uma stylesheet para processar o ficheiro <xref  url="../arq.xml"> arq.xml</xref> e gera um ficheiro de um arqueossítio por cada entrada. Estes ficheiros além de serem guardados numa pasta, haverá um índice que será organizado tendo por base os concelhos.</p>
+        <p> A cada ficheiro XML foi associado uma stylesheet XSLT para o transformar em HTML.</p>
+        <p> Quanto ao servidor NodeJS em si, foi construído um que responde a pedidos na porta 7777 da seguinte forma:</p> 
+        <p> localhost:7777/90  --> Coloca no browser o conteúdo do arq90.xml em formato HTML</p>
+
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.xsl">PR(XSL) </deliverable>
+        <deliverable path="pr.xml">PR(XML)</deliverable>
+        <deliverable path="pr.html">PR(HTML)</deliverable>
+        <deliverable path="pr.dtd">PR(DTD)</deliverable>
+        <deliverable path="../ARQS/Arqs.xsl">Arqueossítios(XSL)</deliverable>
+        <deliverable path="../ARQS/Website">Website dos Arqueossítios</deliverable>
+    </deliverables>
+</pr>
