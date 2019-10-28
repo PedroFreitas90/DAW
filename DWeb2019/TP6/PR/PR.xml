@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "PR.dtd">
+<pr>
+    <metadata>
+        <keyname>TPC6</keyname>
+        <title>Servidor NodeJS para Arquivo de Músicas</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho </supervisor>
+        <bdate>22/10/2019</bdate>
+        <edate>29/10/2019</edate>
+        
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A80975</identifier>
+            <name>Pedro Freitas</name>
+            <email>a80975@alunos.uminho.pt</email>
+            <git>https://github.com/PedroFreitas90</git>
+        </worker>
+        
+    </workteam>
+    <abstract>
+        <p> Este trabalho consiste na construção de um servidor que suporta CRUD, direcionado a arquivos sonoros. </p>
+        <p> Para tal ustilizamos um ficheiro .json para ser o nosso ficheiro de dados: <xref url="../arq-son-evo/cancoes.json"> cancoes.json</xref> .</p>
+        <p> Este ficheiro foi preenchido com os dados de <xref url="../arq-son-EVO.xml"> arq-son-EVO.xml</xref> . Como este ficheiro não tem id's, a função definida em <xref url="../arq-son-evo/adicionar.js"> adicionar.js</xref> que utiliza o <i>nanoid</i></p>
+        <p>As páginas HTML são geradas a partir de ficheiros pug.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="PR.xsl">PR(XSL) </deliverable>
+        <deliverable path="PR.xml">PR(XML)</deliverable>
+        <deliverable path="PR.html">PR(HTML)</deliverable>
+        <deliverable path="PR.dtd">PR(DTD)</deliverable>
+        <deliverable path="../arq-son-evo/views/layout.pug">Layout de todas as páginas (PUG)</deliverable>
+        <deliverable path="../arq-son-evo/views/index.pug">Página inicial da aplicação (PUG)</deliverable>
+        <deliverable path="../arq-son-evo/views/form.pug">Página usada para adicionar uma musica (PUG)</deliverable>
+        <deliverable path="../arq-son-evo/views/error.pug">Página de erro (PUG)</deliverable>
+        <deliverable path="../arq-son-evo/views/cancao.pug">Página usada para visualizar uma arquivo sonoro (PUG)</deliverable>
+        <deliverable path="../arq-son-evo/views/editar.pug">Página usada para editar uma arquivo sonoro (PUG)</deliverable>
+        <deliverable path="../arq-son-evo/routes/index.js">Roteador da aplicação (JS) </deliverable>
+        <deliverable path="../arq-son-evo/cancoes.json">Base de dados para o arquivo (JSON) </deliverable>
+    </deliverables>
+</pr>
