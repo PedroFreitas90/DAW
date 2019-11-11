@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "PR.dtd">
+<pr>
+    <metadata>
+        <keyname>TPC8</keyname>
+        <title>Servidor NodeJS (API e Interface Web) de Premio Nobel </title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho </supervisor>
+        <bdate>5/11/2019</bdate>
+        <edate>12/11/2019</edate>
+        
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A80975</identifier>
+            <name>Pedro Freitas</name>
+            <email>a80975@alunos.uminho.pt</email>
+            <git>https://github.com/PedroFreitas90</git>
+        </worker>
+        
+    </workteam>
+    <abstract>
+        <p> Este trabalho tinha como objetivo construir um servidor que separava a API da Interface web.</p>
+        <p> Para tal utilizamos um ficheiro .json para ser a base da nossa base de dados em Mongo. Esse de dados está em:  <xref url="../nobels.json"> nobels.json</xref> .</p>
+        <p>As páginas HTML são geradas a partir de ficheiros pug.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="PR.xsl">PR(XSL) </deliverable>
+        <deliverable path="PR.xml">PR(XML)</deliverable>
+        <deliverable path="PR.html">PR(HTML)</deliverable>
+        <deliverable path="PR.dtd">PR(DTD)</deliverable>
+        <deliverable path="../PremioNobel/routes/api.js">Roteador da API (JS) </deliverable>
+        <deliverable path="../PremioNobel/routes/nobels.js">Roteador da Interface (JS) </deliverable>
+        <deliverable path="../PremioNobel/routes/index.js">Roteador da Pagina Principal (JS) </deliverable>
+        <deliverable path="../PremioNobel/models/nobels.js">Models (JS) </deliverable>
+        <deliverable path="../PremioNobel/controllers/nobel.js">Controllers (JS) </deliverable>
+    </deliverables>
+</pr>
