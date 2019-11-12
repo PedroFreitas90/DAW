@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h1 Lista de Entidades do CLAV
+  .w3-card-4
+    table.w3-table-all
+      tr
+        th Sigla
+        th
+        th Designação
+        th Estado
+        th Internacional      
+      each e in lista
+        tr
+          td= e.sigla 
+          td    
+            button.w3-button.w3-circle.w3-green(onclick="window.location.assign('/" + e.sigla + "')") Consultar
+          td= e.designacao
+          td= e.estado
+          td= e.internacional
+            

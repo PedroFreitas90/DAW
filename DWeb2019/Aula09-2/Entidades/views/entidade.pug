@@ -1,0 +1,57 @@
+extends layout
+
+block content
+    .w3-container.w3-section
+        .w3-card-4
+            header.w3-container.w3-blue
+                h3 Informação da Entidade
+            .w3-container
+                table.w3-table-all.w3-section
+                    tr
+                        th Sigla
+                        th Estado
+                        th SIOE
+                        th Designação
+                        th Internacional
+                    tr
+                        td= entidade.sigla
+                        td= entidade.estado
+                        td= entidade.sioe
+                        td= entidade.designacao
+                        td= entidade.internacional
+
+    .w3-container.w3-section 
+        .w3-card-4
+            header.w3-container.w3-orange
+                h3 Tipologias
+            .w3-container
+                table.w3-table-all.w3-section
+                    tr
+                        th Sigla
+                        th Designação
+                        th Identificação
+                    each e in entidade.tipologias
+                        tr
+                            td= e.sigla
+                            td= e.designacao
+                            td= e.id
+        
+    .w3-container.w3-section 
+        .w3-card-4
+            header.w3-container.w3-green
+                h3 Dono
+            .w3-container
+                table.w3-table-all.w3-section
+                    tr
+                        th Código
+                        th Título
+                    each e in entidade.dono
+                        tr
+                            td= e.codigo
+                            td= e.titulo 
+        
+    .w3-container.w3-section 
+        .w3-container.w3-red   
+            footer.w3-container
+                p
+                    a(href="/") Voltar à página principal
