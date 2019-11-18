@@ -1,0 +1,15 @@
+{
+  "name": "mongoimport",
+  "version": "1.0.0",
+  "description": "Personal Version of mongoimport Command",
+  "main": "mongoimport.js",
+  "scripts": {
+    "test": "node mongoimport"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://PedroFreitas90/DAW/DWeb2019/TP9/MongoImport"
+  },
+  "author": "Pedro Freitas",
+  "license": "ISC"
+}
