@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "PR.dtd">
+<pr>
+    <metadata>
+        <keyname>TPC9</keyname>
+        <title>Servidor NodeJS (API e Interface Web) de Compositores e MongoImport </title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho </supervisor>
+        <bdate>12/11/2019</bdate>
+        <edate>19/11/2019</edate>
+        
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A80975</identifier>
+            <name>Pedro Freitas</name>
+            <email>a80975@alunos.uminho.pt</email>
+            <git>https://github.com/PedroFreitas90</git>
+        </worker>
+        
+    </workteam>
+    <abstract>
+        <p> Este trabalho consisitia em dois exercícios. Um deles seria construir um servidor que separava a API da Interface web. O outro seria implementar uma versão própria do mongoimport.</p>
+        <p> Para o primeiro exercício utilizamos um ficheiro .json para ser a base da nossa base de dados em Mongo. Esse de dados está em:  <xref url="../compositores/compositores.json"> compositores.json</xref> .</p>
+        <p> Para o segundo exercício tínhamos de dar como argumento o nome da base de dados, o nome da coleção e um ficheiro .json . Para teste utilizei o ficheiro usado no outro exercício, que também podemos encontrar em  <xref url="../MongoImport/compositores.json"> compositores.json</xref> .</p> 
+        <p> Neste segundo exercício podemos ver como correr o exercício com o comando <b>node mongoimport --h</b></p>
+    </abstract>
+    <deliverables>
+        <deliverable path="PR.xsl">PR(XSL) </deliverable>
+        <deliverable path="PR.xml">PR(XML)</deliverable>
+        <deliverable path="PR.html">PR(HTML)</deliverable>
+        <deliverable path="PR.dtd">PR(DTD)</deliverable>
+        <deliverable path="../compositores/Compositores/routes/api.js">Roteador da API (JS) </deliverable>
+        <deliverable path="../compositores/Compositores/routes/compositores.js">Roteador da Interface (JS) </deliverable>
+        <deliverable path="../compositores/Compositores/models/compositores.js">Models (JS) </deliverable>
+        <deliverable path="../compositores/Compositores/controllers/compositores.js">Controllers (JS) </deliverable>
+        <deliverable path="../MongoImport/mongoimport.js">Programa do MongoImport</deliverable>
+    </deliverables>
+</pr>
