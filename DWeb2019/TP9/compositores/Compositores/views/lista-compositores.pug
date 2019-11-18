@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1 Lista de Compositores  
+  .w3-container   
+    table.w3-table-all
+      tr
+        th Nome
+        th 
+        th Data de Nascimento
+        th Data de Falecimento
+      each comp in compositores
+        tr
+          td= comp.nome
+          td    
+            button.w3-button.w3-circle.w3-blue(onclick="window.location.assign('/compositores/" + comp._id + "')") Consultar
+          td= comp.dataNasc
+          td= comp.dataObito
