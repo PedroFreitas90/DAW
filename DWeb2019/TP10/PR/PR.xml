@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "PR.dtd">
+<pr>
+    <metadata>
+        <keyname>TPC10</keyname>
+        <title>Servidor NodeJS (API e Interface Web) de Download e Upload de ficheiros </title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho </supervisor>
+        <bdate>19/11/2019</bdate>
+        <edate>25/11/2019</edate>
+        
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A80975</identifier>
+            <name>Pedro Freitas</name>
+            <email>a80975@alunos.uminho.pt</email>
+            <git>https://github.com/PedroFreitas90</git>
+        </worker>
+        
+    </workteam>
+    <abstract>
+        <p> Este trabalho consistia em pegar no trabalho desenvolvido na aula para fazer upload de vários ficheiros de uma vez</p>
+        <p> Com isto era necessário percorrer todos os formulários da página de forma a criarmos modelos para podermos inserir na base de dados </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="PR.xsl">PR(XSL) </deliverable>
+        <deliverable path="PR.xml">PR(XML)</deliverable>
+        <deliverable path="PR.html">PR(HTML)</deliverable>
+        <deliverable path="PR.dtd">PR(DTD)</deliverable>
+        <deliverable path="../TP10/gficheiros/routes/api.js">Roteador da API (JS) </deliverable>
+        <deliverable path="../TP10/gficheiros/models/ficheiro.js">Models (JS) </deliverable>
+        <deliverable path="../TP10/gficheiros/controllers/ficheiros.js">Controllers (JS) </deliverable>
+        <deliverable path="../TP10/gficheiros/public/javascripts/gficheiros.js"> Javascript para mostrar imagens</deliverable>
+        <deliverable path="../TP10/gficheiros/views/index.pug">View que apresenta a lista de ficheiros e formulário(PUG)</deliverable>
+    </deliverables>
+</pr>
