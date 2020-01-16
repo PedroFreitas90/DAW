@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "PR.dtd">
+<pr>
+    <metadata>
+        <keyname>D.A.W.</keyname>
+        <title>Teste de D.A.W. </title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho </supervisor>
+        <bdate>16/01/2020</bdate>
+        <edate>15/01/2020</edate>
+        
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A80975</identifier>
+            <name>Pedro Freitas</name>
+            <email>a80975@alunos.uminho.pt</email>
+            <git>https://github.com/PedroFreitas90</git>
+        </worker>
+        
+    </workteam>
+    <abstract>
+        <p> Este teste consistia na resolução de dois exercícios.</p>
+        <p> No primeiro exercício teríamos de desenvolver uma API de dados sobre músicas. Neste exercício é importante fazer referência à persistência de dados. Foi nos dado um ficheiro XML com os dados das músicas. Num conversor online foi passado para JSON e importado para o mongo através do comando: mongoimport -d musicas -c musicas --jsonArray dataset.json </p>
+        <p> No segundo exercício teríamos de desenhar uma interface para uma API de dados já fornecida e responder a um conjunto de questões:</p>
+        <p><b>Quantas Entidades estão catalogadas?</b><i>R:</i>456</p>
+        <p><b>A que Tipologias pertence a Entidade "Autoridade para as Condições de Trabalho" (ent_ACT)?</b>
+            <i>R:</i> Administração Pública e Autoridades de supervisão e fiscalização
+        </p>
+        <p><b>Em que processos a entidade "Autoridade Nacional de Segurança Rodoviária" (ent_ANSR) participa como Iniciador?</b>
+            <i>R:</i> 400.10.056 
+        </p>
+        <p><b>De que processos é dona a entidade "Colégio Militar" (ent_CMil)</b>
+            <i>R:</i> 750.20.601
+        </p>
+        
+      
+    </abstract>
+    <deliverables>
+        <deliverable path="PR.xsl">PR(XSL) </deliverable>
+        <deliverable path="PR.xml">PR(XML)</deliverable>
+        <deliverable path="PR.html">PR(HTML)</deliverable>
+        <deliverable path="PR.dtd">PR(DTD)</deliverable>
+    </deliverables>
+</pr>

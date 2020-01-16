@@ -1,0 +1,1 @@
+mongoimport -d database -c collecrtion --jsonArray dataset.json 

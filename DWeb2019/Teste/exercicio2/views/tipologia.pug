@@ -1,0 +1,71 @@
+extends layout
+
+block content
+    .w3-container
+        h3= t.designacao
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-blue.w3-margin-top
+                h3 Informações
+            table.w3-table-all
+                tr
+                    th Designação
+                        td= t.designacao
+                tr
+                    th Sigla
+                        td= t.sigla
+                tr
+                    th Estado
+                        td= t.estado
+    
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-blue.w3-margin-top
+                h3 Entidades pertencentes à topologia
+            table.w3-table-all
+                tr
+                    th ID
+                    th Sigla
+                    th Designação
+                each e in elems
+                    tr
+                        td
+                            td
+                            a(href="http://localhost:9091/entidades/" + t.id)=t.id
+                        td= e.sigla
+                        td= e.designacao
+                
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-blue.w3-margin-top
+                h3 Processos onde é dono
+            table.w3-table-all
+                tr
+                    th Código
+                    th Título 
+                each p in t.dono
+                    tr
+                        td
+                            a(href="http://clav.dglab.gov.pt/classes/consultar/c" + p.codigo)=p.codigo
+                        td= p.titulo
+                        
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-blue.w3-margin-top
+                h3 Processos onde é participante
+            table.w3-table-all
+                tr
+                    th Código
+                    th Título
+                    th Tipo de participante
+                    
+                each p in t.participante
+                    tr
+                        td 
+                            a(href="http://clav.dglab.gov.pt/classes/consultar/c" + p.codigo)=p.codigo
+                        td= p.titulo
+                        td= p.tipoPar
+            
+    footer.w3-container.w3-transparent Made by Pedro Freitas
+        button.w3-button.w3-blue.w3-margin(onclick="history.go(-1)") Voltar
+         button.w3-btn.w3-blue.w3-margin(onclick="window.location.assign('/')") HomePage  
